@@ -3,6 +3,7 @@ import requests
 
 
 def get_weather() -> None:
+    """get_weather"""
     key = os.getenv("API_KEY")
     if not key:
         print("API_KEY environment variable not set")
